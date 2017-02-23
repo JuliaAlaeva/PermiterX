@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style/main.css"/>
+    <link rel="stylesheet" href="style/normalize.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet"/> 
+    <meta charset="UTF-8"/>
+    <title>PermeterX</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <script src="http://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="wrapper">
+        <header id="header">
+            <img class="header-logo" src="image/header-logo.png" alt="header logo"/>
+            <nav id="main-menu" class="menu-js">
+                <ul>
+                    <li class="main-menu-item"><a href="#about">ABOUT</a></li>
+                    <li class="main-menu-item"><a href="#jobs">JOBS</a></li>
+                    <li class="main-menu-item"><a href="#contact-us">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main id="main">
+            <section class="presentation">
+                <div class="main-logo"><img src="image/main-logo.png" alt="main logo"/></div>
+                <h1 class="title-presentation">Redefining Web Security</h1>
+                <a href="#about" class="button button-down scroll-down-js"></a>
+            </section>
+            <section id="about" class="description">
+                <h2 class="title-description">PERIMETERX</h2>
+                <div class="content-description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in rehenderit. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+               </div>
+            </section>
+            <section class="job">
+                <h2 class="title-job">JOB OPENING</h2>
+                <div class="content-job">
+                    We are looking for exceptional developers to join us in this early stage to build a world class team and product. Specific positions can be found below. PerimeterX is Headquartered in Silicon Valley with engineering center in Tel Aviv. Option for relocation.
+                </div>
+                <div class="field-job-buttons">
+                    <a href="#hacker" class="button job-button scroll-down-js">Fullstack JS Hackers</a>
+                    <a href="#security" class="button job-button scroll-down-js">Security Reseachers</a>
+                </div>
+            </section>
+            <div id="jobs" class="job-details">
+                <div class="items-group">
+                    <section id="hacker" class="job-details-item">
+                        <h3 class="title-job-details">FULLSTACK JS HACKERS</h3>
+                        <div class="content-job-details">
+                            <p>
+                                We are looking for people who understand how the web works and what makes browsers tick. A full stack developer that can build highly scalable applications, while pushing the envelope on what javascript can do building slick robust client side code, outsmarting bots and malicious actors.
+                            </p><br/>
+                            <p>
+                                An opportunity to work on cutting edge, responsive, and sophisticated front end systems with highly scalable backend, handling billions of requests daily, storing and analyzing data to get real-time meaningful insights.
+                            </p><br/>
+                            <p>
+                                MEAN stack experience a great advantage. <br/>
+                                Various backend sql/nosql experience a great advantage.
+                            </p>
+                        </div>
+                        <a href="#" class="button button-job-details">APPLY</a>
+                    </section>
+                    <section id="security" class="job-details-item">
+                        <h3 class="title-job-details">SECURITY RESEARCHER</h3>
+                        <div class="content-job-details">
+                            <p>
+                                We are looking for experienced security researchers that are interested in finding and analyzing new types of web attacks, exploring mechanisms bad actors use to avoid detection and reverse engineer browsers, libraries and frameworks to find what can be exploited for good or bad.
+                            </p><br/>
+                            <p>
+                                Reverse engineering experience in various languages and frameworks a great advantage.
+                            </p><br/>
+                            <p>
+                                MEAN stack experience a great advantage. <br/>
+                                Various backend sql/nosql experience a great advantage.
+                            </p>
+                        </div>
+                        <a href="#" class="button button-job-details">APPLY</a>
+                    </section>
+                </div>
+            </div>
+            <section id="contact-us" class="contact-us">
+                <h2 class="title-contact-us">CONTACT US</h2>
+                <form class="form-contact-us" action="#">
+                    <label for="email" class="label_email">
+                        <input id="email" class="email-contact-us email-js" type="email" placeholder="Your mail"/>
+                    </label><br/>
+                    <textarea  class="comment-contact-us" name="comment-contact-us" id="comment-contact-us" cols="25" rows="8" placeholder="Your message"></textarea><br/>
+                    <button class="button button-contact-us">Submit</button>
+                </form>
+                <footer id="footer">
+                    <div class="copyright">@2015 PermeterX</div>
+                    <section class="social-links">
+                        <h4 class="title-social-links">Follow us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-icon social-icon-github"></a>
+                            <a href="#" class="social-icon social-icon-twitter"></a>
+                            <a href="#" class="social-icon social-icon-in"></a>
+                        </div>
+                    </section>
+                </footer>
+            </section>
+        </main>
+    </div>
+    <script src="script/script.js"></script>
+</body>
+</html>
